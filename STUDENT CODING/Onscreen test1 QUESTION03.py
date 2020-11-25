@@ -44,4 +44,4 @@ while validChoice == False:
     print("Invalid Choice")
 
 
-print(f"You entered "+str(userChoice))
+print("You entered "+str(userChoice))
