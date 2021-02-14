@@ -3,7 +3,7 @@ print("Hello")
 # Variables
 
 loop = True
-currency = "£"
+currency = "GBP"
 BASE_CHARGE = float(10)
 addCharge = float(0)
 
@@ -31,11 +31,11 @@ while loop:
         pass
 
     elif country == "AU":
-        currency = "$"
+        currency = "AUD"
         totalCharge *= 2
 
     elif country == "US":
-        currency = "$"
+        currency = "USD"
         totalCharge *= 1.5
 
     print(currency + str(totalCharge))
