@@ -1,4 +1,4 @@
-print("League registration")
+print("Hello")
 
 # Variables
 
